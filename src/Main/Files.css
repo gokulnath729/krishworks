@@ -1,0 +1,16 @@
+.file {
+  padding: 8px 15px;
+  margin: 3px 0;
+  text-align: initial;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px 0px grey;
+  color: #88949e;
+}
+
+.files-cont {
+  width: 28%;
+  background-color: white;
+  margin: 0 10px 20px 0;
+  border-radius: 4px;
+}

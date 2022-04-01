@@ -1,0 +1,15 @@
+.notes-cont {
+  background-color: whitesmoke;
+  padding: 20px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.note-btn {
+  color: white;
+  background-color: #0d53fc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-top: 10px;
+}

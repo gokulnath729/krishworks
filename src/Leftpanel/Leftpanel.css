@@ -1,0 +1,47 @@
+.left-panel-cont {
+  align-items: center;
+  width: 25%;
+}
+
+.nav-opt {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: initial;
+  margin: 5px 0;
+  padding: 10px 20px;
+}
+.nav {
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.nav:hover {
+  background-color: whitesmoke;
+}
+
+.nav-opt:hover {
+  background-color: whitesmoke;
+}
+
+.nav-active {
+  margin: 5px 0;
+  padding: 10px;
+  color: white;
+  background-color: #0d53fc;
+}
+
+.nav-active-opt {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: initial;
+  margin: 5px 0;
+  padding: 10px 20px;
+  color: white;
+  background-color: #0d53fc;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 20%;
+}

@@ -1,0 +1,71 @@
+.appointment-cont {
+  background: white;
+  margin: 0 10px 20px;
+  width: 70%;
+  border-radius: 4px;
+}
+
+.tab-menu {
+  background-color: whitesmoke;
+  padding: 5px 0;
+  border-radius: 4px;
+  font-size: 14px;
+  width: fit-content;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.active-tabs {
+  cursor: pointer;
+  border-radius: 4px;
+  color: #0d53fc;
+  background: white;
+  padding: 5px 10px;
+}
+
+.appointment-list {
+  background: whitesmoke;
+  padding: 5px 0;
+  font-size: 14px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.data-text {
+  font-weight: 500;
+  color: black;
+}
+
+.date-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.center-data {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  width: 25%;
+  padding: 0 20px;
+}
+
+.active-line {
+  width: 1px;
+  margin: auto;
+  height: 50px;
+  background-color: #0d53fc;
+}
+
+.green-active-line {
+  width: 1px;
+  margin: auto;
+  height: 50px;
+  background-color: green;
+}
+
+.bg-white {
+  background-color: white;
+  margin: 10px 20px;
+  border-radius: 4px;
+}
