@@ -90,6 +90,7 @@ class Leftpanel extends React.Component {
                   </div>
                 );
               })}
+              {this.props.panelOpen && (
           <div className="footer">
             <div className="secondary-color f-normal mb-4">
               <i class="fa-solid fa-circle-info mx-3"></i>
@@ -119,6 +120,7 @@ class Leftpanel extends React.Component {
               </div>
             </div>
           </div>
+)}
         </div>
       </React.Fragment>
     );
