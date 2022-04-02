@@ -90,37 +90,37 @@ class Leftpanel extends React.Component {
                   </div>
                 );
               })}
-              {this.props.panelOpen && (
-          <div className="footer">
-            <div className="secondary-color f-normal mb-4">
-              <i class="fa-solid fa-circle-info mx-3"></i>
-              Help
-              <i class="fa-solid fa-question mx-1"></i>
-            </div>
-            <hr />
-            <div className="flex items-center px-2">
-              <img
-                className="ml-4 my-2 inline"
-                width={30}
-                style={{ borderRadius: "50%" }}
-                src="https://assets.caredash.com/image/AsHB4VJqis2bG33NTqlGn6pL8xk=/caredash-serverless-image-handler/caredash/providers/dr-christopher-crudder-profile-98c15792.jpg"
-                alt="doc"
-              />
-              <div
-                className="text-left flex justify-around items-center"
-                style={{ width: "80%" }}
-              >
-                <div>
-                  <div className="f-medium">{docData.name}</div>
-                  <div className="f-normal secondary-color">
-                    {docData.specification}
+          {this.props.panelOpen && (
+            <div className="footer">
+              <div className="secondary-color f-normal mb-4">
+                <i class="fa-solid fa-circle-info mx-3"></i>
+                Help
+                <i class="fa-solid fa-question mx-1"></i>
+              </div>
+              <hr />
+              <div className="flex items-center px-2">
+                <img
+                  className="ml-4 my-2 inline"
+                  width={30}
+                  style={{ borderRadius: "50%" }}
+                  src="https://assets.caredash.com/image/AsHB4VJqis2bG33NTqlGn6pL8xk=/caredash-serverless-image-handler/caredash/providers/dr-christopher-crudder-profile-98c15792.jpg"
+                  alt="doc"
+                />
+                <div
+                  className="text-left flex justify-around items-center"
+                  style={{ width: "80%" }}
+                >
+                  <div>
+                    <div className="f-medium">{docData.name}</div>
+                    <div className="f-normal secondary-color">
+                      {docData.specification}
+                    </div>
                   </div>
+                  <i class="fa-solid fa-sm fa-chevron-down secondary-color "></i>
                 </div>
-                <i class="fa-solid fa-sm fa-chevron-down secondary-color "></i>
               </div>
             </div>
-          </div>
-)}
+          )}
         </div>
       </React.Fragment>
     );
