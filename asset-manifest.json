@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/krishworks/static/css/main.79756623.css",
+    "main.js": "/krishworks/static/js/main.7ac65385.js",
+    "static/js/787.b07b5b91.chunk.js": "/krishworks/static/js/787.b07b5b91.chunk.js",
+    "static/media/logo.png": "/krishworks/static/media/logo.b66a700c3f87b3957664.png",
+    "static/media/logo.svg": "/krishworks/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/krishworks/index.html",
+    "main.79756623.css.map": "/krishworks/static/css/main.79756623.css.map",
+    "main.7ac65385.js.map": "/krishworks/static/js/main.7ac65385.js.map",
+    "787.b07b5b91.chunk.js.map": "/krishworks/static/js/787.b07b5b91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79756623.css",
+    "static/js/main.7ac65385.js"
+  ]
+}
